@@ -3,7 +3,7 @@ const http = require('http');
 const cors = require('cors');
 const { Server } = require('socket.io');
 const connectDB = require('./config/db');
-const roomRoutes = require('./routes/roomRoutes');
+const roomRoutes = require('./Routes/roomRoutes');
 
 require('dotenv').config();
 connectDB();
